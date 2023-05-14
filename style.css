@@ -1,0 +1,264 @@
+ 
+
+/* Reset default styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	
+}
+
+/* Set default font and color */
+body {
+	
+	font-family: 'Lato', sans-serif;
+	background-color: #cac4c4;
+	
+}
+
+/* Header styles */
+header {
+	background-color: rgba(0,0,0,0.4);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	color: #fff;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo img {
+	height: 50px;
+}
+
+.header-title {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li:first-child {
+	margin-left: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+nav a:hover {
+	color: #e67e22;
+}
+
+/* Hero section styles */
+
+.hero{
+	background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)),url(hero-image2.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	
+}
+
+.hero h1{
+	font-family: 'Playfair Display', serif;
+	position: absolute;
+    top: 50%;
+    left: 45%;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 700;
+	font-style: italic;
+}
+.hero  h2{
+	font-family: 'Playfair Display', serif;
+	position: absolute;
+    top: 60%;
+    left: 38%;
+	color: #fff;
+	font-size: 45px;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Featured attractions section styles */
+
+.attractions .container{
+	width: 100%;
+}
+.attractions .container .row{
+	width: 80%;
+	margin: auto;
+	background-color: #fff;
+	margin-bottom: 25px;
+}
+.attractions .container .row .header{
+	width: 60%;
+	text-align: center;
+	margin: auto;
+}
+.attractions .container .row .header h1{
+	padding-top: 30px;
+	font-size: 45px;
+
+}
+.content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.content .card{
+	flex:1;
+	margin: 50px 20px;
+	 box-shadow:0 0 5px 0 rgba(0,0,0,0.1) ;
+	 background-color: #fff;
+
+}
+.content .card img{
+	width: 100%;
+	height: auto;
+}
+.content .card h4{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.content .card p{
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 10px;
+}
+
+
+/*Blog*/
+.blog{
+	width: 80%;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+.blog-wrapper{
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	padding: 80px 0 50px 0;
+	
+}
+.blog-naslov{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+.dugme button{
+  padding: 10px 30px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #fff;
+  flex-basis: 40%;
+ 
+}
+.dugme a{
+	text-decoration: none;
+	color: #333;
+	
+}
+.dugme button:hover {
+	
+	background-color: black;
+	transition: 0.5s;
+	color: white;
+	
+}
+
+
+
+.blog p{
+	text-align: left;
+	margin-left:10%;
+	margin-right: 20%;
+	padding-bottom: 50px;
+	line-height: 2;
+}
+.card-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card2 img{
+
+	width:100%;
+	height:360px;
+	
+	
+}
+.card2{
+	padding: 20px 20px;	
+	flex-basis: 33%;
+	position: relative;
+	
+}
+.card-text{
+	position: absolute;
+	bottom: 50px;
+	left: 40px;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	
+}
+.card2 img:hover{
+	transform: scale(1.05);
+	transition: 0.5s;
+
+}
+
+
+
+
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p:first-child {
+	margin-bottom: 10px;
+}
